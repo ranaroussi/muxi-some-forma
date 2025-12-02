@@ -1,0 +1,32 @@
+id: some-agent
+name: Some Agent
+description: "Some Agent agent"
+active: true
+role: generalist
+specialties: []
+system_message: |
+  You are a helpful AI assistant.
+# Add knowledge sources by editing below:
+# knowledge:
+#   - source: knowledge/weather-data.md
+#     description: "Historical weather patterns and climate trends"
+#     enabled: true
+knowledge: []
+# Add MCP servers by editing below (agent-specific MCP servers):
+# mcp_servers:
+#   - id: "weather_service"
+#     description: "External weather service"
+#     active: true
+#     type: "http"
+#     endpoint: "http://localhost:3000"
+#     auth:
+#       type: "api_key"
+#       header: "X-API-Key"
+#       key: "${{ secrets.WEATHER_API_KEY }}"
+mcp_servers:
+  - id: "dasd"
+  - id: "asd"
+    description: "asd"
+    active: true
+    type: "http"
+    endpoint: "https://asdasd.com"
