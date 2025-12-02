@@ -1,0 +1,20 @@
+id: weather
+description: "check weather"
+active: true
+
+type: stdio
+command: "python"
+args:
+  - "-m"
+  - "run"
+
+# Optional: Override default retry/timeout settings
+# retry_attempts: 3
+# timeout_seconds: 30
+
+# Optional: Environment variables
+# env:
+#   NODE_ENV: "${{ secrets.MCP_<ID>_NODE_ENV }}"
+
+# Optional: Working directory
+# cwd: "/path/to/working/dir"
